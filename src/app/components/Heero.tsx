@@ -1,13 +1,16 @@
 import "../style/heero.css";
-
+import Image from "next/image";
 const Heero = () => {
   return (
     <div className="hero-cont">
       <div className="hero-box-cont">
-        <img
-          src="/naghma.png"width={500}
-          height={400} className="hero_image" alt="my profile image"/>
-         
+        
+           <Image 
+  src="/naghma.png"  // local image path ya external URL
+  alt="Description of the image"  // image description for accessibility
+  width={500}                    // width in pixels
+  height={300}                   // height in pixels
+/>
           
         
         <div className="hero_right_div">

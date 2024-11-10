@@ -5,7 +5,6 @@ import { TbFileCv } from "react-icons/tb";
 import { RiQuillPenLine } from "react-icons/ri";
 import { TbBrandWebflow } from "react-icons/tb";
 import { MdOutlineWebhook } from "react-icons/md"
-import { SiSemanticweb } from "react-icons/si"
 
 const Services = () => {
   return (
@@ -18,7 +17,7 @@ const Services = () => {
             user experience and functionality. Using HTML, CSS, and JavaScript
             along with React and Next.js, I create websites that are visually
             appealing and optimized for performance. My web development services
-            are tailored to meet each client's needs, from personal portfolios
+            are tailored to meet each client s needs, from personal portfolios
             to small business websites.
           </p>
         </div>

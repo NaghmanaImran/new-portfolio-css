@@ -3,16 +3,23 @@
 import "../style/heero.css";
 import { CiFacebook } from "react-icons/ci";
 import { FaYoutube, FaTwitter, FaInstagram } from "react-icons/fa";
-
+import Image from "next/image";
 const About = () => {
   return (
     <div className="hero-cont">
       <div className="hero-box-cont">
-        <img
+       
+        <Image 
+  src="/naghma.png"  // local image path ya external URL
+  alt="Description of the image"  // image description for accessibility
+  width={500}                    // width in pixels
+  height={300}                   // height in pixels
+/>
+        {/* <img
           src="/naghma.png"
           className="hero_image"
           alt="Naghmana's profile image"
-        />
+        /> */}
         <div className="hero_right_div">
           <h1 className="title-banner">About Us</h1>
           <h2 className="subtitle">I’m a passionate web developer with expertise in HTML, CSS, Next.js, and Python.</h2>
