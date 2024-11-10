@@ -1,0 +1,9 @@
+.footer{
+    background-color: darkgoldenrod;
+    color: white;
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    text-align: center; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+}

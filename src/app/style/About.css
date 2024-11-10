@@ -1,0 +1,40 @@
+.social-icon{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ 
+}
+body{
+    background-color: rgb(230, 165, 197);
+}
+.s-i-1{
+    font-size: 35%;
+    color: blue;
+}
+.s-i-2{
+    font-size: 35%;
+    color: red;
+}
+.s-i-4{
+    font-size: 35%;
+    color: green
+}
+.s-i-r{
+    font-size: 35%;
+    color: orangered
+}
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .form-cont {
+        width: 90%;
+    }
+
+    .contact-h1 {
+        font-size: 1.5em;
+    }
+
+    .btn {
+        font-size: 1em;
+    }
+}
